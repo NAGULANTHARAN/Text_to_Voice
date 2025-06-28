@@ -8,7 +8,9 @@ body {
   align-items: center;
   height: 100vh;
 }
-
+.container:hover{
+    transform: translate(-10px, -20px);
+}
 .container {
   background: #e6f4ff;
   padding: 50px;
@@ -16,16 +18,6 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 500px;
-}
-
-.container h2 {
-  font-size: 24px;
-  color: #2d2d2d;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
 }
 
 input[type="text"] {
